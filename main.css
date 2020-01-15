@@ -8,6 +8,17 @@ body {
     clear: both;
 }
 
+article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section {
+    width: 250px;
+    margin: 10px 10px;
+}
+
 /* NAV */
 
 .navbar {
@@ -41,6 +52,8 @@ body {
     background-color: #111;
   }	
 
+ /* FOOTER */
+
   footer {
       width: 100%;
       color: #111;
@@ -51,6 +64,8 @@ body {
       bottom: 0;
   }
 
+  /* DOGS */
+
   .dogs {
       display: flex;
       flex-flow: row wrap;
@@ -59,6 +74,21 @@ body {
   }
 
   .dogs img {
-      width: 250px;
+      width: 270px;
       margin: 50px;
   }
+
+  /* CATS */
+
+  .cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.cats img {
+    width: 200px;
+    margin: 50px;
+    padding: 0 35px;
+}
